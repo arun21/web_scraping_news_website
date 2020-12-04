@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 from datetime import datetime
 import csv
+import yagmail
 #import hyperlink
 
 source = requests.get("https://inshorts.com/en/read/world").text
